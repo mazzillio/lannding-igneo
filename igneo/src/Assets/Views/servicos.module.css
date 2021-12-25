@@ -1,9 +1,10 @@
-.design{
+.servicos{
     text-align: center;
 }
-.block{
+.conteudoServicos{
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }

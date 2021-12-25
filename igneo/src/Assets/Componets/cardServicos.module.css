@@ -1,0 +1,11 @@
+.card{
+    background-color: var(--second-color);
+    width: 280px;
+    height: 270px;
+    border:2px solid var(--primary-color);
+}
+.card h2{
+    margin-top: 4%;
+    text-align: center;
+    color:var(--primary-color);
+}

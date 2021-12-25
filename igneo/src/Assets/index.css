@@ -1,8 +1,9 @@
 :root{
   --primary-color:orange;
+  --second-color:#353839;
 }
 body {
-  background-color: #353839;
+  background-color: var(--second-color);
   color: white;
   margin: 0;
   margin-left: 100px;
