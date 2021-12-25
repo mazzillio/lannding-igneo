@@ -8,9 +8,9 @@ import Sobre from './sobre'
 export default function Conteudo()
 {
     return <div className={styles.conteudo}>
-        <Sobre/>
-        <PorqueDesign/>
-        <Servicos/>
-        <Portifolio/>
+        <Sobre />
+        <PorqueDesign />
+        <Servicos />
+        <Portifolio />
     </div>
 }

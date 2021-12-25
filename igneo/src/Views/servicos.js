@@ -5,7 +5,7 @@ import CardServicos from '../Componets/cardServicos'
 
 export default function Servicos()
 {
-    return <section className={styles.servicos}>
+    return <section className={styles.servicos} id='servicos'>
         <h2 className="title">Serviços</h2>
         <div className={styles.conteudoServicos}>
             <CardServicos titulo="Id.Visual"/>

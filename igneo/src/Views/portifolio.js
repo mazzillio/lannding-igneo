@@ -4,7 +4,7 @@ import CardPortifolio from '../Componets/cardPortifolio';
 
 export default function Portifolio()
 {
-    return <section className={styles.portifolio}>
+    return <section className={styles.portifolio} id='portifolio'>
         <h2 className="title">Portifólio</h2>
         <div className={styles.divPortifolios}>
             <ul>
