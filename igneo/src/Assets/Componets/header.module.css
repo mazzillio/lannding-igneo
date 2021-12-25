@@ -1,0 +1,15 @@
+.header
+{
+    width: 40%;
+    background-color: transparent;
+    
+    float: right;
+   
+}
+.header ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
