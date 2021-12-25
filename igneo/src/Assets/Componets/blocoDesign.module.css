@@ -1,0 +1,5 @@
+.box{
+    width:170px;
+    height:140px;
+    background-color: var(--primary-color);
+}
