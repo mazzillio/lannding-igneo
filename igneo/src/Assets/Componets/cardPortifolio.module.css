@@ -1,0 +1,8 @@
+.cardPortifolio{
+    width: 360px;
+    height: 200px;
+    border-style: none;
+    border:solid black;
+    border-width: 0 3px 1px 0;
+    background-color: white;
+}

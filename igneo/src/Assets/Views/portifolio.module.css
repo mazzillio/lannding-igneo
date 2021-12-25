@@ -1,0 +1,13 @@
+.portifolio{
+    text-align: center;
+}
+.divPortifolios{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.divPortifolios ul
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
