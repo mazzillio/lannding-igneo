@@ -1,5 +1,13 @@
 .box{
-    width:170px;
-    height:140px;
-    background-color: var(--primary-color);
+    width:18%;
+    height:15%;
+  
+}
+h3{
+    color:var(--primary-color)
+}
+p{
+    min-height: 15%;
+    text-justify: center;
+    font-size: 18px;
 }
