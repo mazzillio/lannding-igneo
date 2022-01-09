@@ -1,0 +1,16 @@
+.btnMsg{
+    background-color: var(--color-msg);
+    height: 45px;
+    width: 13.5%;
+    text-align: left;
+    border-radius: 5%;
+    border-color: var(--color-msg);
+    border-style: none;
+    cursor: pointer;
+    padding-left: 4%;
+}
+.btnMsg a{
+    text-decoration: none;
+    color:white;
+    
+}

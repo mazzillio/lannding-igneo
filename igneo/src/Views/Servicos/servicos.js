@@ -1,6 +1,7 @@
 import styles from './servicos.module.css'
-import BtnOrcamento from '../../Componets/Btns/btnOrcamento'
+
 import CardServicos from '../../Componets/Cards/cardServicos'
+import { BtnMesnagem } from '../../Componets/Btns/btnMensagem'
 
 
 export default function Servicos()
@@ -9,12 +10,43 @@ export default function Servicos()
         <h2 className="title">Serviços</h2>
         <div className={styles.conteudoServicos}>
             <CardServicos 
-                titulo="Id.Visual"
-                texto={``}
+                title="Id.Visual"
+                text={`Logotipo, tipografia paleta
+                        de cores e todo e universo
+                        visual de sua marca pensando
+                        de forma estratégica para se 
+                        comunicar de forma eficiente com seu público.
+                `}
             />
-            <CardServicos titulo="Social M"/>
-            <CardServicos titulo="Sites"/>
+            <CardServicos 
+                title="Social M"
+                text={`Com o avanço digital uma
+                       comunicação efetiva nas 
+                       redes sociais têm papel 
+                       fundamental para qualquer
+                       negócio alcançar o sucesso.
+                       Conte com quem entende
+                       do assunto e está
+                       em constante atualização. 
+                `}
+            />
+            <CardServicos 
+                title="Sites"
+                text={`Se você deseja expandir o 
+                       seu alcance ou áreas de contato,
+                       aumentar sua autoridade
+                       ou até mesmo vendas 24h um 
+                       site é uma das respostas,
+                       e é mais um dos serviços que
+                       oferecemos para ajudar
+                       você a atingir os seus o objetivos. 
+                    `}
+            />
         </div>
-        <BtnOrcamento/>
+        <div>
+            <p className={styles.p}>Precisa de outro serviço?
+            <br/>Vamos conversar, que a gente desenrola.</p>
+        </div>
+        <BtnMesnagem/>
     </section>
 }

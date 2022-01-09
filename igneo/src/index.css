@@ -1,6 +1,7 @@
 :root{
   --primary-color:#ff8b14;;
   --second-color:#1c1c1c;
+  --color-msg:#00d760;
 }
 body {
   background-color: var(--second-color);

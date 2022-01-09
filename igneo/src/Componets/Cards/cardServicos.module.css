@@ -1,11 +1,19 @@
 .card{
     background-color: var(--second-color);
-    width: 280px;
-    height: 270px;
+    width: 25%;
+    min-height: 22%;
     border:2px solid var(--primary-color);
+    padding-bottom: 2%;
 }
-.card h2{
+.h2{
     margin-top: 4%;
     text-align: center;
     color:var(--primary-color);
+    font-weight: bolder;
+    font-size: 40px;
+}
+.p{
+    padding:0 11%;
+    text-align:left;
+    margin-bottom: 2%;
 }
