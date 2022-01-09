@@ -6,11 +6,10 @@ export default function Sobre()
     return <section className={styles.sobre} id='sobre'>
             <h2 className="title">Sobre Nós</h2>
             <article>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen 
-            book. It has survived not only five centuries, but also the leap into electronic 
-            typesetting, remaining essentially unchanged.
+            Somos um estúdio que acredita no potencial que o design tem de gerar
+            valor e conectar marcas como pessoas. Estamos a 3 anos no mercado
+            ajudando a construir marcas com propósito que comunicam a 
+            mensagem certa para as pessoas certas.
             </article>
     </section>
 }

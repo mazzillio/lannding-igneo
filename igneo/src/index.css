@@ -6,15 +6,14 @@ body {
   background-color: var(--second-color);
   color: white;
   margin: 0;
-  margin-left: 100px;
+  margin-left: 8%;
   max-width: 100vw;
-  overflow-x: hidden; 
   font-size: 'Inter',sans-serif;
 }
 .title{
     color:var(--primary-color);
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 42.5px;
 
 }
 

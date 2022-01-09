@@ -1,8 +1,12 @@
 .sobre{
     text-align: center;
-    margin-top: 6.5%;
+    margin-top:25%;
+    align-items: center;
 }
 .sobre article{
-    width: 45%;
-    text-align: justify;
+    font-size: 20px;
+    margin:0 auto;
+    width: 55%;
+    text-align: left;
+    font-weight:500;
 }
