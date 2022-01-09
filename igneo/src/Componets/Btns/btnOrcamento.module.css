@@ -1,12 +1,12 @@
 .btn
 {
-    background-color: orange;
-    border: 2px solid orange;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 6px;
     color:white;
-    width:145px;
+    width:150px;
     height: 55px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .btn:hover{
     cursor: pointer;
