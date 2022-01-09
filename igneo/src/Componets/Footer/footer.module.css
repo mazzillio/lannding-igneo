@@ -1,0 +1,18 @@
+.divFooter{
+    display: flex;
+    margin:2% 0;
+    width: 100%;
+}
+.divFooter ul{
+    list-style: none;
+    padding-left: 35%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 40%;
+    margin-right: 3%;
+}
+.divFooter ul li{
+   cursor:pointer;
+   text-align: center;
+   width:50%;
+}
