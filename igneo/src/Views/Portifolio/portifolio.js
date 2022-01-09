@@ -1,6 +1,6 @@
-import styles from '../Assets/Views/portifolio.module.css'
-import BtnOrcamento from "../Componets/btnOrcamento";
-import CardPortifolio from '../Componets/cardPortifolio';
+import styles from './portifolio.module.css'
+import BtnOrcamento from "../../Componets/Btns/btnOrcamento";
+import CardPortifolio from '../../Componets/Cards/cardPortifolio';
 
 export default function Portifolio()
 {

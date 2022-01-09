@@ -1,6 +1,6 @@
-import styles from '../Assets/Views/servicos.module.css'
-import BtnOrcamento from '../Componets/btnOrcamento'
-import CardServicos from '../Componets/cardServicos'
+import styles from './servicos.module.css'
+import BtnOrcamento from '../../Componets/Btns/btnOrcamento'
+import CardServicos from '../../Componets/Cards/cardServicos'
 
 
 export default function Servicos()

@@ -1,4 +1,4 @@
-import styles from '../Assets/Componets/cardServicos.module.css'
+import styles from './cardServicos.module.css'
 
 
 export default function CardServicos({titulo})

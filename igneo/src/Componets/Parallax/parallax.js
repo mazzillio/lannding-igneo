@@ -1,4 +1,4 @@
-import styles from "../Assets/Componets/parallax.module.css"
+import styles from "./parallax.module.css"
 
 export default function Parallax()
 {

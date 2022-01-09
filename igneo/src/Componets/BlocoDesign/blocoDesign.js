@@ -1,4 +1,4 @@
-import styles from '../Assets/Componets/blocoDesign.module.css'
+import styles from './blocoDesign.module.css'
 
 
 export default function BlocoDesign()

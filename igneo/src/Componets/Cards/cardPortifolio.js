@@ -1,4 +1,4 @@
-import styles from '../Assets/Componets/cardPortifolio.module.css'
+import styles from './cardPortifolio.module.css'
 
 
 export default function CardPortifolio()

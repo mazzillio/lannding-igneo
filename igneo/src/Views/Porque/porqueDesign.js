@@ -1,6 +1,6 @@
-import styles from '../Assets/Views/porqueDesign.module.css'
-import BlocoDesign from '../Componets/blocoDesign'
-import BtnOrcamento from '../Componets/btnOrcamento'
+import styles from './porqueDesign.module.css'
+import BlocoDesign from '../../Componets/BlocoDesign/blocoDesign'
+import BtnOrcamento from '../../Componets/Btns/btnOrcamento'
 
 export default function PorqueDesign()
 {
