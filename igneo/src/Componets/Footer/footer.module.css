@@ -2,10 +2,12 @@
     display: flex;
     margin:2% 0;
     width: 100%;
+    font-family:Jura,'sans-serif';
+    font-weight: bolder;
 }
 .divFooter ul{
     list-style: none;
-    padding-left: 35%;
+    padding-left: 25%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 40%;
@@ -14,8 +16,11 @@
 .divFooter ul li{
    cursor:pointer;
    text-align: center;
-   width:50%;
+   width:70%;
 }
 .divFooter p{
     margin-left: 5%;
+    width: 25%;
+    font-family:Jura,'sans-serif';
+    font-weight: bolder;
 }

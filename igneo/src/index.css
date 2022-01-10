@@ -1,6 +1,6 @@
 :root{
-  --primary-color:#ff8b14;;
-  --second-color:#1c1c1c;
+  --primary-color:#ff8b14;
+  --second-color:#080808;
   --color-msg:#00d760;
 }
 body {
@@ -15,6 +15,14 @@ body {
     color:var(--primary-color);
     font-weight: bolder;
     font-size: 42.5px;
-
+    font-family: Teko,'sans-serif';
+}
+p{
+  font-family:Roboto,'sans-serif';
+  font-weight: 500;
+}
+button{
+  font-family:Jura,'sans-serif';
+  font-weight: bolder;
 }
 

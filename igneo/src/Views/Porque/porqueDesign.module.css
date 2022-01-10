@@ -1,5 +1,7 @@
 .design{
+    margin-top: 8%;
     text-align: center;
+    margin-bottom: 6%;
 }
 .block{
     display: flex;

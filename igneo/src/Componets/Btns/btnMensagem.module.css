@@ -7,10 +7,26 @@
     border-color: var(--color-msg);
     border-style: none;
     cursor: pointer;
-    padding-left: 4%;
-}
-.btnMsg a{
     text-decoration: none;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.btnMsg p{
     color:white;
+    padding: 0;
+    margin: 0;
+    font-family:Jura,'sans-serif';
+    font-weight: bolder;
+    font-size: 12px;
+    padding-top:4%;
+    
+}
+#imsg{
+    color:white;
+    font-size: 30px;
+    padding-right: 8%;
+    padding-left: 4%;
+    height: 100%;
     
 }
