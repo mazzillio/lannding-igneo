@@ -2,13 +2,17 @@ import styles from './servicos.module.css'
 
 import CardServicos from '../../Componets/Cards/cardServicos'
 import { BtnMesnagem } from '../../Componets/Btns/btnMensagem'
+import { useRef } from 'react'
+import { useOnScreen } from '../../hooks/useOnScreen'
 
 
 export default function Servicos()
 {
-    return <section className={styles.servicos} id='servicos'>
+    const tragetRef=useRef(null)
+    const visible=useOnScreen(tragetRef)
+    return <section className={styles.servicos} id='servicos' ref={tragetRef}>
         <h2 className="title">Serviços</h2>
-        <div className={styles.conteudoServicos}>
+        <div className={visible===true?`${styles.conteudoServicos} ${styles.animationServico}`:styles.conteudoServicos}>
             <CardServicos 
                 title="Id.Visual"
                 text={`Logotipo, tipografia paleta

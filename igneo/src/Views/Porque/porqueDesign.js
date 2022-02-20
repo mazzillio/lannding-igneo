@@ -1,12 +1,16 @@
 import styles from './porqueDesign.module.css'
 import BlocoDesign from '../../Componets/BlocoDesign/blocoDesign'
-import BtnOrcamento from '../../Componets/Btns/btnOrcamento'
+import { useRef } from 'react'
+import { useOnScreen } from '../../hooks/useOnScreen'
 
 export default function PorqueDesign()
 {
+    const targetRef=useRef(null)
+    const visible=useOnScreen(targetRef)
+
     return <section className={styles.design}>
-        <h2 className="title">Por que investir design</h2>
-        <div className={styles.block}>
+        <h2 className="title" ref={targetRef}>Por que investir design</h2>
+        <div className={visible===true?`${styles.block} ${styles.animationPorque}`:styles.block} >
             <BlocoDesign 
                 title="Credibilidade"
                 text={`Um bom design gera

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from './slider.module.css'
-import{FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
+import {IoIosArrowBack,IoIosArrowForward} from 'react-icons/io'
+
 export default function Slider({ projeto,imagens }) {
     const [current,setCurrent]=useState(0)
     const length=imagens.length
@@ -15,8 +16,8 @@ export default function Slider({ projeto,imagens }) {
         setCurrent(current === length-1? 0:current+1)
     }
     return <div className={styles.slider}>
-            <FaArrowAltCircleLeft className={styles.leftArrow} onClick={prevSlide} />
-            <FaArrowAltCircleRight className={styles.rightArrow} onClick={nextSlide}/>
+            <IoIosArrowBack className={styles.leftArrow} onClick={prevSlide} />
+            <IoIosArrowForward className={styles.rightArrow} onClick={nextSlide}/>
             <h3>{projeto}</h3> 
             {
                 imagens.map((imagem,index)=>{
