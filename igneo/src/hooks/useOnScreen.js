@@ -7,7 +7,7 @@ export function useOnScreen(ref)
         useEffect(()=>{
             const observer= new IntersectionObserver(([entry])=>{
                     setVisible(entry.isIntersecting)
-            },{threshold:0.2})
+            })
             if(ref.current)
             {
                 observer.observe(ref.current)

@@ -9,6 +9,7 @@
     width: 55%;
     text-align: left;
     font-weight:500;
+    overflow: hidden;
 }
 .animationSobre{
     animation: 1s ease-out 0s 1 leftToRight;
@@ -20,5 +21,10 @@
     }
     100%{
         transform: translateX(0%);
+    }
+}
+@media(max-width:450px){
+    .sobre article{
+        width:95%;
     }
 }

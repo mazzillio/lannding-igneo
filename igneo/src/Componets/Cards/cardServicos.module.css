@@ -17,3 +17,13 @@
     text-align:left;
     margin-bottom: 2%;
 }
+
+@media(max-width:450px){
+    .card{
+        width:95%;
+        margin-bottom: 5%;
+    }
+    .p{
+        text-align: center;
+    }
+}

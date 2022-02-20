@@ -18,3 +18,16 @@
     cursor: pointer;
     color:var(--primary-color);
 }
+
+@media(max-width:450px){
+    .header{
+        width: 50%;
+        
+        margin-right: 0%;
+    }
+    .header ul{
+        flex-direction: column;
+        line-height: 30px;
+        margin-left: 12.5%;
+    }
+}

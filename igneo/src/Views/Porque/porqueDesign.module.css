@@ -24,3 +24,8 @@
         
     }
 }
+@media(max-width:450px){
+    .block{
+        flex-direction: column;
+    }
+}

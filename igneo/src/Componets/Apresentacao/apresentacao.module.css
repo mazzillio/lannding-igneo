@@ -21,7 +21,19 @@
 .btn{
     margin:0 auto;
 }
-
 span{
     color:var(--primary-color);
+}
+@media(max-width:450px){
+    .apresentacao{
+        width:100%;
+        padding-left: 2%;
+    }
+    .apresentacao article{
+        width:60%;
+        font-size: 30px;
+    }
+    .apresentacao img{
+        height: 100px;
+    }
 }
