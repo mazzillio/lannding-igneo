@@ -12,3 +12,6 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+/* .divPortifolios ul li{
+    height: 35vh;
+} */
